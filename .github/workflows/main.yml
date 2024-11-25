@@ -8,7 +8,7 @@ env:
 jobs:
 
   imprimir:
-    runs-on: ubuntu@latest
+    runs-on: ubuntu-latest
     steps:
       - name: impresion
         run: echo ${{ env.nombre }}
